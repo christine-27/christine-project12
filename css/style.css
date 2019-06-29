@@ -388,7 +388,7 @@ i.fas.fa-location-arrow {
 .nav-toggle{
     display: block;
     float: right;
-    top: 33px;
+    top: 34px;
     position: relative;
     padding: 10px;
     border: none;
@@ -504,62 +504,10 @@ img.jobImg {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-.nav-toggle{
-    display: block;
-    float: right;
-    top: 33px;
-    position: relative;
-    padding: 10px;
-    border: none;
-    background: #ffd00f;
-    color: #b10201;
-    font-weight: bolder;
-    outline: none;
-    cursor: pointer;
-}
-.menu {
-    float: right;
-    width: 100%;
-    display: none;
-    position: relative;
-}
-.nav-toggle .menu {
-    display: block;
-}
-header ul li {
-    display: block;
-    padding: 10px 0;
-    font-size: 20px;
-    text-align: center;
-}
-header ul li a {
-    color: #fff;
-}
 .headerTitle p {
     font-size: 20px;
 }
-.navMenu {
-    position: absolute;
-    top: 118px;
-    background-color: #000000d4;
-    z-index: 999;
-    height: 20em;
-    width: 100%;
-}
-.activeLi {
-    color: #ff9258;
-    border-left: none;
-    border-right: none;
-}
-header .navigation #navi ul {
-    display: block;
-    text-align: center;
-    justify-content: center;
-    padding: 0; 
-}
-.menu-active {
-    display: block;
-}
+
 .headerTitle {
     position: relative;
     text-align: center;
@@ -573,11 +521,72 @@ header .navigation #navi ul {
     margin: 10px;
 }}
 
-@media (min-width: 1025px) and (max-width: 1125px) {
-    header ul li {
+@media (min-width: 768px) and (max-width: 992px) {
+.nav-toggle{
+    display: block;
+    float: right;
+    top: 33px;
+    position: relative;
+    padding: 10px;
+    border: none;
+    background: #ffd00f;
+    color: #b10201;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+}
+header ul li a {
+    color: #fff;
+}
+.menu {
+    float: right;
+    width: 100%;
+    display: none;
+    position: relative;
+}
+.nav-toggle .menu {
+    display: block;
+    }
+.navMenu {
+    position: absolute;
+    top: 110px;
+    background-color: #000000d4;
+    z-index: 999;
+    height: 20em;
+    width: 100%;
+}
+.activeLi {
+    color: #ff9258;
+    border-left: none;
+    border-right: none;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+header .navigation #navi ul {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 0; 
+}
+.menu-active {
+    display: block;
+}
+header ul li {
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    }
+} 
+@media (min-width: 993px) and (max-width: 1023px) {
+   header ul li {
+        display: inline-block;
         padding: 0 2px;
     }
 }
+
 @media (min-width: 1024px) and (max-width: 1200px) {
 header ul li{
     padding: 0 4px;
